@@ -1,3 +1,7 @@
+# Exclude sample projects
+D3js/
+ReactProjects/
+
 # Logs
 logs
 *.log
