@@ -1,69 +1,32 @@
-# Coding Dojo JS
+This is the Coding Dojo JS developed by [Cliff Weng](https://github.com/cliffweng). This is a place for kids to learn coding through Javascripts. To view the overall road map of kids' coding curriculum, please go to the [main dojo here](https://cliffweng.github.io/coding-dojo/).
 
-Coding Dojo for kids to learn JS
+##  Getting Started
 
-## Learn Javascript
-
-W3Schools has this extensive tutorial : https://www.w3schools.com/js/
-
-Also check out JavaScript' [Global Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
-
-To learn JS on Processing, go [Processing.md](Processing.md)
-## Plain Online JS
-
-You can code plain JS on [codesandbox.io](https://codesandbox.io/s/beautiful-river-qv986?file=/src/index.js), which allow you to pratice, save, and share your JS code with the world.
-
-You can also use OpenProcessing
-```
-function setup() {
-	console.log('hello world');
-}
-```
-
-### CodePen
+- 1. Learn [Processing](Processing.md) for basic JS syntax and structure, and some best visual coding libraries.
+- 2. Learn [React](React.md) [on CodePen](https://codepen.io/walkinggeek/full/JjbGVao), so you can create your own web application.
+- 3. Learn [NodeJS](NodeJS.md), so you can create your own backend and desktop application.
+## Why Javascripts
+Javascripts is used on all websites, so it's the "language of the web", plus, Javascript can (easily) do (through [Node.js](https://nodejs.org)) so many cool things such as:
+ - [API server](https://expressjs.com/)
+ - Build Websites & Desktop App [ReactJS](https://reactjs.org/) 
+ - [AI](https://js.tensorflow.org/)
+ - [Chat bot](https://discord.js.org)
+ - [Trading](https://github.com/Ladinn/algotrader)
+ - [Games](https://phaser.io/)
+ - [IOT](https://blog.bitsrc.io/10-javascript-iot-libraries-to-use-in-your-next-projects-bef5f9136f83)
+ - Manage your cloud - [AWS](https://aws.amazon.com/sdk-for-node-js/), [Google Cloud](https://cloud.google.com/nodejs/docs/reference/apis), [Azure](https://github.com/Azure/azure-sdk-for-node).
 
 
-### React.js
 
-https://www.w3schools.com/react/default.asp
+## Javascript Learning Resources
 
+- [W3Schools JS](https://www.w3schools.com/js/)
+- [W3Schools React](https://www.w3schools.com/react/)
+- [CodePen](https://codepen.io/) allows you to write code in the browser, and see the results of it as you build.
+- [CodeSandbox](https://codesandbox.io/) Create, share, and get feedback with collaborative sandboxes for rapid web development.
 
-#### React Directly in HTML
-
-Getting started : https://www.w3schools.com/react/react_getstarted.asp
-
-By including 'babel' js library, you can include JSX js file directly without generating the code first.
-```
-<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-<script type="text/babel" src="./script_babel.js"></script>
-```
-The full working sample looks like this
-```
-<html>
-  <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-  <body>  
-    <div id="mydiv"></div>
-    <script type="text/babel">
-      class Hello extends React.Component {
-        render() { return <h1>Hello World!</h1> }
-      }
-      ReactDOM.render(<Hello />, document.getElementById('mydiv'))
-    </script>
-  </body>
-</html>
-```
 ### Some libraries
 #### d3js.org
 #### Dataframe
-
 https://gmousse.gitbooks.io/dataframe-js/content/doc/api/dataframe.html
-## APIs
 
-https://devresourc.es/tools-and-utilities/public-apis
-
-### cdnjs.com/libraries
-
-All the JS libraries you can include in your html without installing them first.
