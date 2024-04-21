@@ -1,6 +1,6 @@
 # Learn React
 
-This is 
+This is my attempt to tech a high school hackathon team to learn React
 ## Getting Started
 
 Go to [React Tutorial on CodePen](https://codepen.io/walkinggeek/full/JjbGVao).
